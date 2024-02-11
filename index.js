@@ -7,5 +7,5 @@ function showSlides() {
         slides[i].style.transform = "translateX(-" + slideIndex * 100 + "%)";
     }
     slideIndex = (slideIndex + 1) % slides.length;
-    setTimeout(showSlides, 5000); // Change slide every 5 seconds
+    setTimeout(showSlides, 5000);
 }

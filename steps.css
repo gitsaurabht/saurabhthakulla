@@ -5,7 +5,7 @@
     padding: 200px;
     background-color: #f9f9f9;
      opacity: 0;
-    transform: translateY(200px);
+    transform: translateY(50%);
     transition: opacity 2s ease-in-out, transform 2s ease-in-out;
     
 }
@@ -90,7 +90,7 @@ p {
     margin: 0;
     font-size: 35px;
     opacity: 0;
-    transform: translateY(150px);
+    transform: translateY(50%);
     transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
 }
 
